@@ -11,6 +11,6 @@ Font using: [JetBrains Mono Medium Nerd Font](https://github.com/ryanoasis/nerd-
 ## 🏄🏻‍♀️ One-liner installation command
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/cpea2506/Xcode-OneMonokai-Theme/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/cpea2506/Xcode-OneMonokai-Theme/main/OneMonokai/install.sh)
 ```
 
