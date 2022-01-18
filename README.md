@@ -1,4 +1,4 @@
-# 🚥 Xcode-OneMonokai-Theme
+# 🚥 Xcode-OneMonokai
 
 Yet another One Monokai theme and it's for Xcode user. Inspired from vscode's [one-monokai](https://github.com/azemoh/vscode-one-monokai)
 
@@ -10,7 +10,13 @@ Font using: [JetBrains Mono Medium Nerd Font](https://github.com/ryanoasis/nerd-
 
 ## 🏄🏻‍♀️ One-liner installation command
 
+You expect a very long installation guide with a lot of confusing inside? That's not for you. Goodbye! 😏
+
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/cpea2506/Xcode-OneMonokai-Theme/main/OneMonokai/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/cpea2506/Xcode-OneMonokai/main/OneMonokai/install.sh)
 ```
+
+## Feedback
+
+If you are facing any error that make installation fail. Please feel free to give me a feedback issues. Thank you!
 
