@@ -38,6 +38,8 @@ function setting_theme {
         echo "> Failed to install. Please try again! 🚨"
         exit 1
     fi
+
+    echo "> Setting done! ✅"
 }
 
 function remove_install_folder {
@@ -52,9 +54,8 @@ function main {
     if [ -d $XCODE_DIR ]; then
         install_theme
         setting_theme
-        remove_theme_folder
+        remove_install_folder
         
-        echo "> Setting done! ✅"
         echo "> You can restart Xcode now. 👌"
     else
         echo "Xcode not detected. 🚨"
