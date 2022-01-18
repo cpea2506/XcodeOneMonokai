@@ -3,35 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>DVTConsoleDebuggerInputTextColor</key>
-	<string>0.995968 0.995968 0.995968 1</string>
+	<string>0.607741 0.63644 0.695893 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>SFMono-Bold - 11.0</string>
+	<string>HackNerdFontComplete-Bold - 12.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
-	<string>0.999873 1 0.999841 1</string>
+	<string>0.607741 0.63644 0.695893 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>SFMono-Regular - 11.0</string>
+	<string>HackNerdFontComplete-Bold - 12.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
-	<string>0.269583 0.704479 0.84096 1</string>
+	<string>0.835061 0.323721 0.376519 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>SFMono-Bold - 11.0</string>
+	<string>HackNerdFontComplete-Bold - 12.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
-	<string>0.995968 0.995968 0.995968 1</string>
+	<string>0.607741 0.63644 0.695893 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>SFMono-Regular - 11.0</string>
+	<string>HackNerdFontComplete-Bold - 12.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
-	<string>0.995968 0.995968 0.995968 1</string>
+	<string>0.607741 0.63644 0.695893 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>SFMono-Bold - 11.0</string>
+	<string>HackNerdFontComplete-Bold - 12.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
-	<string>0.153735 0.158026 0.134656 1</string>
+	<string>0.117845 0.12868 0.153567 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
-	<string>1 1 1 1</string>
+	<string>0.904005 0.0509517 0.334732 1</string>
 	<key>DVTConsoleTextSelectionColor</key>
-	<string>0.206911 0.212687 0.181233 1</string>
+	<string>0.185851 0.203938 0.249525 1</string>
 	<key>DVTCursor</key>
 	<integer>1</integer>
 	<key>DVTDebuggerInstructionPointerColor</key>
-	<string>0.705792 0.8 0.544 1</string>
+	<string>0.531519 0.726401 0.399745 1</string>
 	<key>DVTFontAndColorVersion</key>
 	<integer>1</integer>
 	<key>DVTLineSpacing</key>
