@@ -21,7 +21,7 @@ function install_theme {
     msg "> Clonning theme ...  📦"
 
     if ! git clone --branch main --depth 1 \
-        "git@github.com:cpea2506/Xcode-OneMonokai.git" $PWD; then 
+        "git@github.com:cpea2506/Xcode-OneMonokai.git"; then
         echo "Failed to clone repository.";
         exit 1
     fi
