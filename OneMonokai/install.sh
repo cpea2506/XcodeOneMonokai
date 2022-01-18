@@ -34,13 +34,10 @@ function setting_theme {
 
     mkdir -p $THEME_DIR
 
-    if cp $ONEMONOKAI_DIR/OneMonokai.xccolortheme $THEME_DIR; then
+    if ! cp $ONEMONOKAI_DIR/OneMonokai.xccolortheme $THEME_DIR; then
         echo "> Failed to install. Please try again! 🚨"
         exit 1
     fi
-
-    echo "> Done! ✅"
-    echo "> You can restart Xcode now. 👌"
 }
 
 function remove_install_folder {
@@ -56,6 +53,9 @@ function main {
         install_theme
         setting_theme
         remove_theme_folder
+        
+        echo "> Setting done! ✅"
+        echo "> You can restart Xcode now. 👌"
     else
         echo "Xcode not detected. 🚨"
     fi
