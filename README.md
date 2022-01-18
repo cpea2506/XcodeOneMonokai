@@ -18,5 +18,5 @@ bash <(curl -s https://raw.githubusercontent.com/cpea2506/Xcode-OneMonokai/main/
 
 ## Feedback
 
-If you are facing any error that make installation fail. Please feel free to give me a feedback issues. Thank you!
+If you are facing any error that make installation fail. Please feel free to give me a feedback issue. Thank you!
 
