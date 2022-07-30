@@ -7,21 +7,19 @@
 #
 
 declare -r XCODE_DIR=$HOME/Library/Developer/Xcode
-declare -r THEME_DIR=$XCODE_DIR/UserData/FontAndColorThemes/
+declare -r THEME_DIR=$XCODE_DIR/UserData/FontAndColorThemes
 declare -r XCODE_ONEMONOKAI_DIR=$PWD/Xcode-OneMonokai
 
 function msg {
-    local text="$1"
-    local div_width="80"
-    printf "%${div_width}s\n" ' ' | tr ' ' -
-    printf "%s\n" "$text"   
+    printf "%80s\n" ' ' | tr ' ' -
+    printf "%s\n" "$1" 
 }
 
 function install_theme {
     msg "> Clonning theme ...  📦"
 
     if ! git clone --branch main --depth 1 \
-        "git@github.com:cpea2506/Xcode-OneMonokai.git"; then
+        "https://github.com/cpea2506/Xcode-OneMonokai.git"; then
         echo "Failed to clone repository.";
         exit 1
     fi
